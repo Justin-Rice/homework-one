@@ -1,0 +1,31 @@
+.hero{
+    &.hero--donate{
+        display: block;
+        background-color: aqua;
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url(../img/donate-hero.jpg);
+          background-attachment: fixed;
+          height: 600px;
+    }
+    &__flex__info.donate{
+        width: 1100px;
+    }
+}
+@media (max-width: 900px) {
+.hero{
+    &.hero--donate{
+        height: 700px;
+    }
+    &__flex__info.donate{
+        width: 600px;
+        position: relative;
+        bottom: 250px;
+        
+    }
+
+}
+}
