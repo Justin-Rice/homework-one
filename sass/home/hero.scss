@@ -1,0 +1,30 @@
+.hero {
+  background-color: aqua;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/apple-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .text-container {
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+    height: 30vh;
+    width: 500px;
+    min-height: 100px;
+    margin: 0 auto;
+  }
+
+  &__main_header {
+  }
+}

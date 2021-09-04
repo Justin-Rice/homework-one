@@ -1,0 +1,129 @@
+.products {
+  h1 {
+    color: #b62b2b;
+    border-bottom: solid;
+    border-color: #b62b2b;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  min-height: calc(67vh - 50px);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  &__flex {
+    // background-color: rosybrown;
+    height: 1200px;
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    &__holder {
+      height: 350px;
+      width: 250px;
+      background: red;
+      flex-direction: row;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border: solid;
+      border-color: #b62b2b;
+      border-radius: 3px;
+
+      h2 {
+        color: white;
+        background-color: #b62b2b;
+      }
+    }
+    .holder--one {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/gala.png);
+    }
+    .holder--two {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/granny-smith.jpg);
+    }
+    .holder--three {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/golden-delicious.jpg);
+    }
+    .holder--four {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/fiji.jpg);
+    }
+    .holder--five {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/black-diamond.jpg);
+    }
+    .holder--six {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/ambrosia.jpg);
+    }
+    .holder--seven {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/goldspur.jpg);
+    }
+    .holder--eight {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/winter-banana.jpg);
+    }
+    .holder--nine {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(../img/arknsas-black.jpg);
+    }
+  }
+}
+@media (max-width: 800px) {
+  .products {
+    margin: 0 auto;
+    //background-color: saddlebrown;
+    height: 2180px;
+    width: 600px;
+    &__flex {
+      margin: 0 auto;
+
+      height: 2000px;
+      width: 600px;
+    }
+  }
+}

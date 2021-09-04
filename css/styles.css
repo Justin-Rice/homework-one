@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+section {
+  min-height: calc(50vh - 50px);
+  padding: 30px;
+  padding-bottom: 14px;
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: #b62b2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.nav__logo {
+  height: 75px;
+  width: 90px;
+  margin: 0 auto;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+.nav a:hover {
+  color: #35bd47;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 275px;
+  width: 100%;
+  background-color: #b62b2b;
+}
+.footer__flex {
+  height: 250px;
+  width: 350px;
+  min-width: 200px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footer__flex__list {
+  color: white;
+  font-size: 20 px;
+  list-style-type: none;
+  text-align: center;
+}
+.footer__flex__list h4 {
+  font-size: 22px;
+  font-weight: 100;
+}
+.footer__flex__list li {
+  line-height: 2;
+}
+.footer__flex__list li span {
+  font-style: bold;
+  color: #35bd47;
+}
+
+.hero {
+  background-color: aqua;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/apple-hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/apple-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.hero .text-container {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  height: 30vh;
+  width: 500px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+.main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  min-height: calc(67vh - 50px);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.main h1 {
+  color: #b62b2b;
+  border-bottom: solid;
+  border-color: #b62b2b;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.main__flex {
+  height: 40vh;
+  width: 1100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.main__flex__holder {
+  height: 350px;
+  width: 250px;
+  background: red;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: solid;
+  border-color: #b62b2b;
+  border-radius: 3px;
+}
+.main__flex__holder h2 {
+  color: white;
+  background-color: #b62b2b;
+}
+.main__flex .holder--one {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/gala.png);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/gala.png);
+}
+.main__flex .holder--two {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/granny-smith.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/granny-smith.jpg);
+}
+.main__flex .holder--three {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/golden-delicious.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/golden-delicious.jpg);
+}
+.main__flex .holder--four {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/fiji.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/fiji.jpg);
+}
+
+@media (max-width: 800px) {
+  .main {
+    height: 2000px;
+    width: 300px;
+  }
+  .main__flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 2000px;
+    width: 300px;
+  }
+}
+.products {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  min-height: calc(67vh - 50px);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.products h1 {
+  color: #b62b2b;
+  border-bottom: solid;
+  border-color: #b62b2b;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.products__flex {
+  height: 1200px;
+  width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.products__flex__holder {
+  height: 350px;
+  width: 250px;
+  background: red;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: solid;
+  border-color: #b62b2b;
+  border-radius: 3px;
+}
+.products__flex__holder h2 {
+  color: white;
+  background-color: #b62b2b;
+}
+.products__flex .holder--one {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/gala.png);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/gala.png);
+}
+.products__flex .holder--two {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/granny-smith.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/granny-smith.jpg);
+}
+.products__flex .holder--three {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/golden-delicious.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/golden-delicious.jpg);
+}
+.products__flex .holder--four {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/fiji.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/fiji.jpg);
+}
+.products__flex .holder--five {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/black-diamond.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/black-diamond.jpg);
+}
+.products__flex .holder--six {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/ambrosia.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/ambrosia.jpg);
+}
+.products__flex .holder--seven {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/goldspur.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/goldspur.jpg);
+}
+.products__flex .holder--eight {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/winter-banana.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/winter-banana.jpg);
+}
+.products__flex .holder--nine {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/arknsas-black.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/arknsas-black.jpg);
+}
+
+@media (max-width: 800px) {
+  .products {
+    margin: 0 auto;
+    height: 2180px;
+    width: 600px;
+  }
+  .products__flex {
+    margin: 0 auto;
+    height: 2000px;
+    width: 600px;
+  }
+}
+.checkout {
+  background-color: salmon;
+  margin: 0 auto;
+  text-align: center;
+}
+.checkout h1 {
+  color: #b62b2b;
+  border-bottom: solid;
+  border-color: #b62b2b;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.checkout__form {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  margin: 0 auto;
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  border: solid;
+  border-color: #b62b2b;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.checkout__form__container {
+  width: 300px;
+  color: #b62b2b;
+}
+.checkout__form__container input {
+  border: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: #35bd47;
+  height: 20px;
+  width: 300px;
+}
+.checkout__form__container textarea {
+  border: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: #35bd47;
+  width: 300px;
+  height: 80px;
+}
+.checkout__form__container button {
+  height: 40px;
+  background-color: salmon;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  border: none;
+  width: 120px;
+}
